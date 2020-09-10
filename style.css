@@ -1,0 +1,519 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-image:url(img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.logo{
+    float: left;
+    padding-top: 5vh;
+    margin-left: 5%;
+}
+span{
+    color: hotpink;
+}
+ul{
+    float: right;
+    display: flex;
+    margin-right: 10% ;
+    padding-top: 5vh;
+}
+li{
+    list-style: none;
+    margin-right: 5%;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+}
+a:before{
+    position: absolute;
+    background: white;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    transform:scaleX(0);
+    transform-origin: right;
+}
+/* a:hover{
+    color: black;
+} */
+a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform .4s linear;
+    background-color:hotpink ;
+    
+}
+.beast{
+    text-align: center;
+    padding-top: 25vh;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #000;
+}
+.firstpara{
+    text-align:center;
+    padding-top: 10vh;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.firstbtn{
+    justify-content: center;
+    align-content: center;
+    margin-left: 43%;
+    height: 5vh;
+    width: 23vh;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000;
+    text-align: center;
+    background-color: pink;
+    margin-top: 5%;
+    border-radius: 50px;
+}
+.img{
+    margin-left: 10%;
+    }
+.section2{
+    display: flex;
+    margin: 20px;
+    background-color: #ffffff;
+}
+.part1{
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin-left: 20%;
+}
+.firsthead, .secondhead, .thirdhead, .fourthhead{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+#p1, #p2, #p3, #p4{
+    margin-bottom: 10px;
+}
+.need{
+    background-color: hotpink;
+    height: 45vh;
+}
+.needhelp{
+    text-align: center;
+    padding-top: 6%;
+    font-size: 3rem;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.secondbtn{
+    margin-left:45%;
+    height: 6vh;
+    width: 18vh;
+    text-transform: capitalize;
+    font-size:1.5rem;
+    border-radius: 30px;
+    background-color: hotpink;
+    color: white;
+    margin-top: 5%;
+    font-family: sans-serif;
+}
+.aboutsection{
+    display: flex;
+}
+.aboutimage{
+    background-image: url(img/women3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 470px;
+    width:520px;
+    margin-left: 5%;
+}
+.text{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3rem;
+    text-transform: capitalize;
+    /* font-family: sans-serif; */
+    color: #fff;
+}
+#conso{
+    color: rgb(240, 20, 130);
+}
+.aboutconso{
+    height:470px;
+    width: 520px;
+    margin-left: 15%;
+    margin-top: 30px;
+    
+}
+.abouthead{
+    text-transform: capitalize;
+    padding-bottom: 5%;
+    font-size: 2rem;
+    padding-top: 55px;
+}
+#conso2{
+    color: rgb(240, 20, 130);
+}
+.textconso{
+    font-size: 1.5rem;
+}
+.coach-section{
+    display: flex;
+    /* flex-flow: row; */
+    justify-content: space-around;
+}
+.ourcoach{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    padding:5%;
+    color: rgb(240, 20, 130);
+}
+.coachtext{
+    width: 300px;
+    margin-bottom: 3%;
+}
+.firstcoach{
+     /* margin-right: 20px; */
+     width: 20%;
+}
+.coachname{
+    margin: 5%;
+    color: hotpink;
+}
+.programlist{
+    display: flex;
+    justify-content: space-around;
+}
+.firstprog{
+    width: 20%;
+}
+.yoga{
+    text-transform: uppercase;
+    text-align: center;
+}
+.programs{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    padding:5%;
+    color: rgb(240, 20, 130);
+}
+.btn3{
+    margin-left:10%;
+    height: 6vh;
+    width: 18vh;
+    text-transform: capitalize;
+    font-size:1.5rem;
+    background-color:rgb(224, 16, 51);
+    color: white;
+    margin-top: 5%;
+    font-family: sans-serif;
+}
+.view{
+    /* border: 2px solid; */
+    height:5vh; 
+    width: 15%;
+    margin-left: 43%;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 2%;
+    background-color: rgb(224, 16, 51);
+    color: #fff;
+
+}
+.packages{
+    margin-top: 5%;
+    text-transform: uppercase;
+    text-align: center;
+}
+#pack{
+    color:orange
+}
+.membership{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(240, 235, 235);
+}
+.membership div{
+    border: 1px #ccc solid;
+
+}
+.boxes{
+    width: 20%;
+    margin-top: 5%;
+    background-color: #fff;
+}
+.oneday{
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin: 20px;
+}
+.amount{
+    color: orange;
+    font-size: 3rem;
+    text-align: center;
+}
+.percent{
+    text-align: center;
+    margin: 3%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.get{
+    text-align: center;
+    width:55%;
+    height: 5vh;
+    margin-left: 20%;
+    padding-top: 5%;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(224, 16, 51);
+    color: #ffffff;
+    margin-top: 20px;
+}
+.enjoy, .onetime, .personal, .book, .orientation{
+    margin: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.enjoy{
+    color: orange;
+    font-weight:bold;
+}
+.testimonies{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 5%;
+}
+.testimonies-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.test-box{
+    width: 25%;
+    border-left: 2px rgb(240, 20, 130) solid;
+    height: 25vh;
+    align-items: center;
+
+}
+.test-para{
+    margin-left: 2%;
+    text-align: center;
+    margin-top: 15%;
+}
+.names-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+#names{
+    height: 100px;
+    width: 100px;
+    border-radius:50px ;
+}
+.names-section{
+    margin-top: 5%;
+}
+.names{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.role{
+    text-transform: capitalize;
+    margin-top: 5%;
+}
+.details-container{
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 10%;
+}
+#machines{
+    height: 60vh;
+    width: 50%;
+}
+.form{
+    background-color: rgba(204, 56, 2, 0.801);
+    width: 50%;
+}
+.firstname, .lastname{
+    margin-left: 3%;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+#firstname, #lastname{
+    background-color: rgba(204, 56, 2, 0.801);
+    border:rgba(204, 56, 2, 0.801);
+    opacity: 1;
+    margin-top:5% ;
+    width: 35%;
+    height: 5vh;
+}
+#date, #time, #tel{
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 5vh;
+    width: 25%;
+    background-color: rgba(204, 56, 2, 0.801);
+    border: rgba(204, 56, 2, 0.801);
+    color:#fff;
+}
+#comment{
+    margin-left: 5%;
+    height: 8vh;
+    width: 39%;
+    margin-top: 5%;
+}
+#appoinment{
+     height: 8vh;
+    width: 39%;
+    background-color: #fff;
+    color: rgba(204, 56, 2, 0.801);
+    font-size: 1.2rem;
+    text-transform: uppercase; 
+
+}
+.gallery-section{
+    display: flex;
+    max-width: 100%;
+}
+.facebook{
+    width: 25%;
+}
+.gallery{
+    width: 25%;
+    height: 420px;
+}
+.gallery-text{
+    color: #000;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 7%;
+}
+.facebook-section{
+    font-size: 2rem;
+    color: hotpink;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 7%;
+    font-weight: bolder;
+}
+.footer-container{
+    background-color: #000;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+/* .footer-container div{
+    border: 2px #fff solid;
+} */
+.about-us-footer{
+    width: 30%;
+    height: 50vh;
+    color: #fff;
+    /* margin-left: 10%; */
+    margin-top: 10%;
+}
+.about-footer, .service-footer, .contact-us-footer{
+    text-align: center;
+    text-transform: uppercase;
+}
+.para-footer, .list{
+    text-align: center;
+    margin-top: 3%;
+    text-transform: capitalize;
+}
+.main-footer{
+    color:#fff;
+    background-color: #000;
+    height: 10vh;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+#conso-footer{
+    font-size: 1.5rem;
+}
+label #bar,
+label #cancel{
+    color: white;
+    font-size: 30px;
+    float: right;
+    line-height:80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#checkbox{
+    display: none;
+}
+@media (max-width:1118px){
+    .logo{
+        left: 8px;
+    }
+} 
+@media (max-width:944px){
+        .logo{
+            left: 6%;
+            top: 20px;
+            width: 130px;
+        }
+        a{
+            font-size: 10px;
+        }
+
+        }
+        @media(max-width:860px){
+            label #bar{
+                display: block;
+            }
+            ul{
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                top: 80px;
+                left: -100;
+                text-align: center;
+                transition: all .5s;
+            }
+            ul li{
+                display:block;
+                margin: 50px 0;
+                line-height: 30px;
+
+            }
+            li a{
+                font-size: 20px;
+                color: rgba(204, 56, 2, 0.801);
+            }
+            #check:checked
+        }
+    
